@@ -1,3 +1,5 @@
+![](https://github.com/xfDing815/ORBSLAM2_RGBD_AR/blob/main/images/RGBD_AR.png)
+
 # 1. Prerequisites
 
 Establishing a workspace
