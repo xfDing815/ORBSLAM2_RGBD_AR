@@ -1,5 +1,7 @@
 ![](https://github.com/xfDing815/ORBSLAM2_RGBD_AR/blob/main/images/RGBD_AR.png)
 
+# This project is used for RGBD camera to generate virtual AR. In ROS environment, Realsensed435i camera can be equipped to run Mono, Stereo, RGBD, and Mono_AR, RGBD_ AR, and can be tested on the TUM dataset.
+
 # 1. Prerequisites
 At first, you should build the workspace
 You should have:
