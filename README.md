@@ -28,17 +28,17 @@ git clone https://github.com/xfDing815/ORBSLAM2_RGBD_AR.git ORB_SLAM2
 git clone https://github.com/xfDing815/ORBSLAM2_RGBD_AR.git ORB_SLAM2
 ```
 
-# 3. from https://github.com/raulmur/ORB_SLAM2 to download Vocabulary
+# 3.From https://github.com/raulmur/ORB_SLAM2 to download Vocabulary
 move the Vocabulary into ORB_SLAM2
 
-# 4. build
+# 4. Build
 ```
 chmod +x build.sh build_ros.sh
 ./build.sh
 ./build_ros.sh
 ```
 
-# 5. run this demo with the [rgbd-dataset](https://cvg.cit.tum.de/data/datasets/rgbd-dataset/download#freiburg1_room) 
+# 5. Run this demo with the [rgbd-dataset](https://cvg.cit.tum.de/data/datasets/rgbd-dataset/download#freiburg1_room) 
 ```
 roscore
 rosrun ORB_SLAM2 RGBDAR Vocabulary/ORBvoc.txt Examples/RGB-D/TUM1_ROS.yaml
