@@ -1,6 +1,7 @@
 ![](https://github.com/xfDing815/ORBSLAM2_RGBD_AR/blob/main/images/RGBD_AR.png)
 
 # 1. Prerequisites
+You
 
 Establishing a workspace
 ```
@@ -28,7 +29,7 @@ chmod +x build.sh build_ros.sh
 ./build_ros.sh
 ```
 
-#5. Run
+# 5. run this demo with the dataset: ![](https://cvg.cit.tum.de/rgbd/dataset/freiburg1/rgbd_dataset_freiburg1_room.bag)
 ```
 roscore
 rosrun ORB_SLAM2 RGBDAR Vocabulary/ORBvoc.txt Examples/RGB-D/TUM1_ROS.yaml
