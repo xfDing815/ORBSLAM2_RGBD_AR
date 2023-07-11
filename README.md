@@ -1,9 +1,16 @@
 ![](https://github.com/xfDing815/ORBSLAM2_RGBD_AR/blob/main/images/RGBD_AR.png)
 
 # 1. Prerequisites
-You
+At first, you should build the workspace
+You should have:
+```
+eigen for version 3
+Pangolin for version 0.6
+opencv for version 3.2.0
+ros for melodic
+```
 
-Establishing a workspace
+Then establishing a workspace
 ```
 mkdir -p ~/catkin_ws/src
 cd ~/catkin_ws/src
