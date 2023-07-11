@@ -29,7 +29,7 @@ chmod +x build.sh build_ros.sh
 ./build_ros.sh
 ```
 
-# 5. run this demo with the [dataset](https://cvg.cit.tum.de/rgbd/dataset/freiburg1/rgbd_dataset_freiburg1_room.bag) 
+# 5. run this demo with the [rgbd-dataset](https://cvg.cit.tum.de/data/datasets/rgbd-dataset/download#freiburg1_room) 
 ```
 roscore
 rosrun ORB_SLAM2 RGBDAR Vocabulary/ORBvoc.txt Examples/RGB-D/TUM1_ROS.yaml
